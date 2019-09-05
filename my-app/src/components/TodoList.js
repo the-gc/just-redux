@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 import Todo from './Todo'
-import todos from '../reducers/todos';
 
 const TodoList = ({ todos, onTodoClick }) => (
     <ul>
